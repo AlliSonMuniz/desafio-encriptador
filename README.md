@@ -8,4 +8,6 @@ Toda letra oficial será convertida para letras minúsculas; Há 3 botões: crip
 
 O botão copy, após copiar o texto da saída, apagará o mesmo; 
 
-(EXTRA): Footer com meus créditos com um link que redireciona para meu GitHub (este aqui).
+(EXTRA): Footer com meus créditos com um link que redireciona para meu GitHub.
+
+Acesse em: https://allisonmuniz.github.io/desafio-encriptador/
