@@ -1,0 +1,135 @@
+* { 
+    background: #E5E5E5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    font-family: "JetBrains Mono", monospace;
+}
+
+::placeholder { color: #0A3871;}
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem { 
+    background: white;
+    background-image: url(/imagens/garoto.jpg);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.btn-descriptografar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-family: "JetBrains Mono", monospace;
+
+}
+
+.btnCopiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    text-align: center;
+    height: 67px;
+    margin-left: 150px;
+    margin-top: 428px;
+    position: absolute;
+    width: 328px;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.informacao {
+    color: #495057;
+    font-size: 8px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+    gap: 0.3rem;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.rodape-titulo {
+    color: #0A3871;
+    font-size: 18px;
+    margin-left: 320px;
+    font-family: "JetBrains Mono", monospace;
+    
+
+}
+
+.githublogo {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.informacao__titulo {
+    font-size: 20px;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.alliSon {
+    font-family: "JetBrains Mono", monospace;
+    background-color: transparent;
+    font-size: 0.6rem;
+}
